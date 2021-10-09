@@ -1,39 +1,36 @@
 {
   "project_info": {
-    "project_number": "999999999999",
-    "firebase_url": "https://xamarinfcm-9fafe.firebaseio.com",
-    "project_id": "xamarinfcm-9fafe",
-    "storage_bucket": "xamarinfcm-9fafe.appspot.com"
+    "project_number": "605399378206",
+    "project_id": "fcmtrialproject-1844a",
+    "storage_bucket": "fcmtrialproject-1844a.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:99999999999:android:0000000000000000",
+        "mobilesdk_app_id": "1:605399378206:android:bd158f48623a8c0318010f",
         "android_client_info": {
           "package_name": "com.xamarin.fcmexample"
         }
       },
       "oauth_client": [
         {
-          "client_id": "YOU MUST USE YOUR OWN GOOGLE SERVICES.JSON!",
+          "client_id": "605399378206-ua88u36h7gb6nc4n0rrv4mggrbr0cuib.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "YOU MUST USE YOUR OWN GOOGLE SERVICES.JSON!"
+          "current_key": "AIzaSyATMgXDdoad2TTzGndZNVvG6Gqf-h_CSkc"
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
-        },
-        "ads_service": {
-          "status": 2
+          "other_platform_oauth_client": [
+            {
+              "client_id": "605399378206-ua88u36h7gb6nc4n0rrv4mggrbr0cuib.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
