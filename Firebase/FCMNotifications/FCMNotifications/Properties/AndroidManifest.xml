@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.xamarin.fcmexample" android:versionName="1.0" android:installLocation="auto" android:versionCode="2">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.ppi.batmon2" android:versionName="1.0" android:installLocation="auto" android:versionCode="2">
 	<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="30" />
 	<uses-permission android:name="android.permission.INTERNET" />
 	<application android:label="FCMNotifications">
@@ -11,5 +11,10 @@
 				<category android:name="${applicationId}" />
 			</intent-filter>
 		</receiver>
+		<service android:name="com.ppi.batmon2.MyFirebaseMessagingService">
+			<intent-filter>
+				<action android:name="com.google.firebase.MESSAGING_EVENT" />
+			</intent-filter>
+		</service>
 	</application>
 </manifest>

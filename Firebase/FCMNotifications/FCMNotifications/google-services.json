@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "605399378206",
-    "project_id": "fcmtrialproject-1844a",
-    "storage_bucket": "fcmtrialproject-1844a.appspot.com"
+    "project_number": "579209324175",
+    "project_id": "batmon2-59efc",
+    "storage_bucket": "batmon2-59efc.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:605399378206:android:bd158f48623a8c0318010f",
+        "mobilesdk_app_id": "1:579209324175:android:c7f48fbff73c2bf236f2fa",
         "android_client_info": {
-          "package_name": "com.xamarin.fcmexample"
+          "package_name": "com.ppi.batmon2"
         }
       },
       "oauth_client": [
         {
-          "client_id": "605399378206-ua88u36h7gb6nc4n0rrv4mggrbr0cuib.apps.googleusercontent.com",
+          "client_id": "579209324175-lghs08kudgd0gcc0dq5b8s7tn082r928.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyATMgXDdoad2TTzGndZNVvG6Gqf-h_CSkc"
+          "current_key": "AIzaSyCP8Y2tcIKT6vNEktWN0NXxyJcuuAU4wtk"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "605399378206-ua88u36h7gb6nc4n0rrv4mggrbr0cuib.apps.googleusercontent.com",
+              "client_id": "579209324175-lghs08kudgd0gcc0dq5b8s7tn082r928.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

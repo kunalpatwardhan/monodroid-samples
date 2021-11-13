@@ -11,8 +11,8 @@ using Firebase.Messaging;
 
 namespace FCMNotifications
 {
-    [Service]
-    [IntentFilter(new[] {"com.google.firebase.MESSAGING_EVENT"})]
+    [Service(Name = "com.ppi.batmon2.MyFirebaseMessagingService")]
+    [IntentFilter(new[] { "com.google.firebase.MESSAGING_EVENT" })]
     public class MyFirebaseMessagingService : FirebaseMessagingService
     {
         const string TAG = "MyFirebaseMsgService";
@@ -21,7 +21,7 @@ namespace FCMNotifications
         {
             Log.Debug(TAG, "From: " + message.From);
 
-            var body = message.GetNotification().Body;
+            var body = message.Data["score"];
             Log.Debug(TAG, "Notification Message Body: " + body);
             SendNotification(body, message.Data);
         }
